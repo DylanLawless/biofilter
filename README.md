@@ -15,6 +15,13 @@ Methods can often have rather cryptic names and may not be searchable by non-exp
 This project is pulling together the current best-practices in these topics that can be applied for the method of Biofiltration.
 The content must strictly adhere to reputable scientific literature sources, and methods must be in common usage within the bioinformatic community (or other related communities).
 
+## Topic of focus
+The topic of transporter technology is mostly science fiction to date, although some advances have been made [cite].
+Assuming that this technology becomes a reality or not, the biofilter component depdents on data processing protocols that are valid. 
+The illustration below shows transporter technology simplified into four parts; we will assume that (A-C) have been developed and focus attention on (D).
+Incoming data will consist of molecular and coordinate data that requires screening for pathogens or other non-desirable components.
+![](biofilter_scheme.png)
+
 ## Outline
 This outline graph is likely to grow as a map of the layout for quick understanding.
 This layout may also become a figure within the manuscript. 
