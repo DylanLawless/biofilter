@@ -29,7 +29,7 @@ Scientific research should be boarderless and open, therefore contributions are 
 
 ## Stages
 - This manuscript launches the first step; an outline of the potential and limitations of current bioinformatics. 
-- The second step will be a compillation of the current best practices in each required component. 
+- The second step will be a compillation software from the current best practices in each required component. 
 - The third would be developing new methods that are not avaialble currently.
 - The fourth would be implementation in some near future when transporter technology science has caught up with science-fiction.
 
