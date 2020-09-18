@@ -8,16 +8,17 @@ This is a manuscript about the potential and technical requirements for biolfilt
 While implementation is currently a subject for science-fiction, the methodology can be feasibly produced today.
 
 In the science fiction world of Star Trek, Biofilters are included on all transporters to decontaminate transported objects.
-Biofilters remove pathogens and radiation to prevent contaminated or unexpected incidents.
+Biofilters remove pathogens and radiation to prevent contamination and unexpected incidents.
 
-Much of the major requirements for this techonology has already been solved but it spread over a vast field of bioinformatics, genomics, microbiology, etc. 
+Much of the major requirements for this techonology has already been solved but is spread over the vast fields of bioinformatics, genomics, microbiology, etc. 
+Methods can often have rather cryptic names and may not be searchable by non-experts when they may need it (our future physicist colleagues).
 This project is pulling together the current best-practices in these topics that can be applied for the method of Biofiltration.
-The content must strickly adhere to reputable scientific literature sources, and methods must be in common usage within the bioinformatic community (and other related communities).
+The content must strictly adhere to reputable scientific literature sources, and methods must be in common usage within the bioinformatic community (or other related communities).
 
 ## Outline
-The outline might continue to grow using a graph to map the layout for quick understanding.
+This outline graph is likely to grow as a map of the layout for quick understanding.
 This layout may also become a figure within the manuscript. 
-
+The order hierarchy should be easy to follow, but main sections are modular. Hyperlink referencing back and forth will likely be required to keep repetition and word count down.
 ![](biofilter.png)
 
 ## Why is this open-source
