@@ -15,3 +15,6 @@
 
 # Ignore macOS Desktop Services Store 
 .DS_store
+
+# ignore rough work
+rough_work/
