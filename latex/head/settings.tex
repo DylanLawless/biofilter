@@ -1,0 +1,70 @@
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%%% Document structure %%%%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \usepackage[margin=3.6cm]{geometry} % boarder size
+    \usepackage{lineno} % used along with \linenumbers after begin document. 
+    \usepackage{setspace} % line spacing
+        \setstretch{1.4}
+    \makeatletter % The following lines get rid of footer stating pre-preint to elsevier.
+    	\def\ps@pprintTitle{%
+    	\let\@oddhead\@empty
+    	\let\@evenhead\@empty
+    	\def\@oddfoot{}%
+    	\let\@evenfoot\@oddfoot}
+    \makeatother
+    \graphicspath{ {images/} } % sets the path to image files (Figures)
+    
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%%% Bibliography       %%%%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %\usepackage{natbib} \setcitestyle{comma,authoryear}
+    \usepackage{natbib}
+    	\setcitestyle{numbers,sort&compress}
+    	\setcitestyle{sort&compress}
+    	\usepackage{hypernat} % hypernat also required to allow citations to compress. 
+    
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%%% Aesthetics         %%%%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \usepackage{microtype} % Creates better spaced text
+    \RequirePackage{times} % Font
+    \usepackage{ccaption}
+    \usepackage{siunitx} % SI units 
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{nameref}% this allows a reference be named, to print unnumbered references by their section name (used here for linking to Supplemental text in this case).
+    \usepackage{xcolor} % Setting colours and their usage
+    	\definecolor{natureblue}{RGB}{5,110,210}
+        \usepackage[colorlinks]{hyperref} % Colour for hyperlinks, (URLs, citations, cross reference)
+    	\AtBeginDocument{%this allows colours to chage from the defined elsearticle template.
+    	\hypersetup{
+    	colorlinks=true,
+        linkcolor={natureblue},
+    	citecolor={natureblue},
+        filecolor=blue!50!black,
+        urlcolor=cyan,
+    	}}
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%%% Supplemental labels%%%%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %Define command to start a supplemental section
+    %set the supplemental letter used for figures (e.g. Figure E1)
+    \newcommand{\beginsupplement}{%
+            \setcounter{table}{0}
+            \renewcommand{\thetable}{E\arabic{table}}%
+            \setcounter{figure}{0}
+            \renewcommand{\thefigure}{E\arabic{figure}}%
+         }
+    
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %%%% Building tables    %%%%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \usepackage{booktabs} % required for tables
+    \usepackage{rotating,tabularx} % tabularx is the table style used, rotating can also be used
+    \newcolumntype{Z}{ >{\centering\arraybackslash}X } % defining table content layout per box
+    \usepackage{ltablex} % allow page break between lines in tabularx
+    \usepackage{caption} \captionsetup{font=normalsize} % to set the caption size as normal even when table is tiny.
+    \usepackage{multirow}
+    \usepackage{pdflscape}

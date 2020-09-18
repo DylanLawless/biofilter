@@ -1,0 +1,149 @@
+% to compile: \ll
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Document type      %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[preprint,11pt,fleqn]{elsarticle}
+\usepackage{nopageno} % no page numbers
+\input{head/settings.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Begin content      %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+%  \linenumbers
+\small
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Title and author   %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frontmatter}
+
+\title{Genomic and biochemical potential in transporter biofilter technology}
+    \author[add1]{Placeholder title \corref{cor1}}
+\author[add1]{Dylan Lawless\corref{cor1}}
+	\ead{Dylan(dot)Lawless(at)epfl(dot)ch}
+\cortext[cor1]{Addresses for correspondence}
+\address[add1]{Global Health Institute, School of Life Sciences, École Polytechnique Fédérale de Lausanne, Lausanne, 1015, Switzerland}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Abstract           %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{abstract}
+\setstretch{1.2}
+Abstract
+\end{abstract}
+\end{frontmatter}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Formalities        %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %   \section*{Funding}
+ %   \section*{Acknowledgements}
+ %   \section*{Ethics statement}
+ %   \section*{Key words}
+    \section*{Abbreviations}
+    \noindent 
+   % ABC (ABC)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Introduction       %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \tableofcontents
+% \listoffigures
+%  \listoftables
+
+\section{Introduction}
+\noindent
+
+\section{Screening complexity}
+Whitelists, blacklists, and subject-specific definition. 
+
+
+\section{Genomic screen}
+Tolerated genomic sequences.
+A benign microbe may acquire pathogenic sequences, plasmids.
+
+\section{Peptide screen}
+
+What is the number of unique proteins and peptide encoded by host genome.
+What is the number of commensal organisms.
+
+
+\section{Immonogenic tolerance filter}
+The distance between foreign peptide and host petides may indicate MHC presentation.
+MHC presented unknown peptides may ilicite a flag - do not want to impede the normal host immune response. 
+If flagged peptide producer can be identified it can be filtered as pathogen.
+If not then send for further screen.
+
+If peptides are too far from host cell or component then foreign material may be flagged.
+
+How do we define commensal organisms. 
+A subject specific immune profile should be recorded - HLA and somatic recombination matrix. 
+We can predict the expected binding potential based on germline and somatic recombination of the HLA. 
+
+\section{Decision tracing patter}
+A fixed decission tree allows for learned patterns.
+
+
+\section{Parasitic commensals}
+Some organisms may be more paracitic than commensal, however, these apparent
+pathogens may infact provide beneficial compouds, hormones, or keep more damaging pathogens in check - commensal antibiotic. 
+What criteria would save these organisms when all others would flag them for filtering?
+
+Obligate parasites may need to be transferred to a synthetic host before assessing for extermination. 
+The rules for sentience must be applied. 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Conclusion         %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Conclusion}
+
+\section*{Authorship Contributions}
+%\noindent Dylan Lawless analysed data and conceived and wrote the manuscript, 
+Filler content.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Conflict of Interest%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Conflict of Interest}
+\noindent The authors declare no conflict of interest.
+
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% References         %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{\refname}
+	\bibliographystyle{unsrtnat}
+%	\bibliographystyle{plainnat}
+	\bibliography{references}
+\pagebreak 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Supplemental       %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\beginsupplement
+\section{Supplemental}
+\label{sec:Supplemental_text}
+
+% \begin{figure}[h]
+%	\hspace*{0cm} \includegraphics[scale=0.62]{Supp_fig}
+%	\caption{Caption filler}
+%	\label{fig:Supp_fig}
+%\end{figure}
+%\clearpage
+
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% End of Document    %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%

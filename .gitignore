@@ -1,0 +1,17 @@
+# Ignore LaTeX output that is not critical
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.log
+*.out
+*.spl
+*.synctex.gz
+*.toc
+
+# Ignore macOS Desktop Services Store 
+.DS_store
