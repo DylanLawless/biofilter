@@ -40,6 +40,6 @@ I will be happy to share it in a different format like MS Word.
 Authorship will be offered for meaningful contributions.
 
 
-"As man reaches into space, he will acquire new drugs, food, minerals,\
-and knowledge which he cannot conceive of now."\
+"_As man reaches into space, he will acquire new drugs, food, minerals,\
+and knowledge which he cannot conceive of now._"\
 — Gene Roddenberry
