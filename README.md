@@ -18,7 +18,7 @@ The content must strickly adhere to reputable scientific literature sources, and
 The outline might continue to grow using a graph to map the layout for quick understanding.
 This layout may also become a figure within the manuscript. 
 
-![](biofilter.pdf)
+![](biofilter.png)
 
 ## Why is this open-source
 This manuscript will not produce new software or primary methods, but will instead knit together some current best practices to offer new potential.
