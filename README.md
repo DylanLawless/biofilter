@@ -7,7 +7,7 @@ LaTeX source code for a manuscript under development.
 This is a manuscript about the potential and technical requirements for biolfilter technology. 
 While implementation is currently a subject for science-fiction, the methodology can be feasibly produced today.
 
-In the science fiction world of Star Trek, Biofilters are included on all transporters to decontaminate transported objects.
+In the science fiction world, Biofilters are included on all transporters to decontaminate transported objects and individuals.
 Biofilters remove pathogens and radiation to prevent contamination and unexpected incidents.
 
 Much of the major requirements for this techonology has already been solved but is spread over the vast fields of bioinformatics, genomics, microbiology, etc. 
